@@ -5,7 +5,7 @@ var pkgConf = require('pkg-conf')
 http.createServer(function(req, res) {
   var conf = pkgConf.sync('yargs', {
     defaults: {},
-    cwd: require.main.filename
+    cwd: require.main.children[0].filename
   })
   res.writeHead(200, { 'Content-Type': 'text/plain' });
   res.end(JSON.stringify(conf) + '\n')

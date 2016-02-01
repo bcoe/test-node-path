@@ -18,9 +18,9 @@
   "author": "Ben Coe <ben@npmjs.com>",
   "license": "ISC",
   "yargs": {
-    "pork-chop": "sandwiches"
+    "camel-case-expansion": false
   },
   "dependencies": {
-    "pkg-conf": "^1.1.1"
+    "yargs": "^4.0.0-alpha2"
   }
 }

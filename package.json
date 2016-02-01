@@ -22,6 +22,6 @@
     "camel-case-expansion": false
   },
   "dependencies": {
-    "yargs": "^4.0.0-alpha2"
+    "yargs": "^4.0.0-alpha3"
   }
 }

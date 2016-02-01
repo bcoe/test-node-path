@@ -16,5 +16,11 @@
     "path"
   ],
   "author": "Ben Coe <ben@npmjs.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "yargs": {
+    "pork-chop": "sandwiches"
+  },
+  "dependencies": {
+    "pkg-conf": "^1.1.1"
+  }
 }

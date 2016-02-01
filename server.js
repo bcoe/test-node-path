@@ -2,5 +2,5 @@ var http = require('http')
 var port = process.env.PORT || 1337;
 http.createServer(function(req, res) {
   res.writeHead(200, { 'Content-Type': 'text/plain' });
-  res.end(JSON.stringify(require.main) + '\n')
+  res.end(JSON.stringify(require.main.filename) + JSON.stringify(require.main.children) + '\n')
 }).listen(port);

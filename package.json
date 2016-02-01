@@ -1,0 +1,20 @@
+{
+  "name": "test-node-path",
+  "version": "1.0.0",
+  "description": "testing path behavior on Windows Azure.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bcoe@test-node-path.scm.azurewebsites.net:443/test-node-path.git"
+  },
+  "keywords": [
+    "test",
+    "node",
+    "path"
+  ],
+  "author": "Ben Coe <ben@npmjs.com>",
+  "license": "ISC"
+}
